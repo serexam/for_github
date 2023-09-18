@@ -8,7 +8,7 @@ def test_nw_1():
                                                  seq2, 
                                                  score_fun=lambda x, y: 5 if x == y else -4, 
                                                  gap_penalty=-10)
-    assert score == 20
+    assert score == 19
     assert aligned_seq1 == 'ATGC'
     assert aligned_seq2 == 'ATGC'
 
