@@ -2,6 +2,8 @@ from typing import Callable, Tuple
 import argparse
 import sys
 
+// ----------------
+
 PRINT_MAX_LINE_LENGTH = 80
 DEBUG = False
 
